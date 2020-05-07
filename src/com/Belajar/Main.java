@@ -8,13 +8,15 @@ public class Main {
         int b = 5;
         long c = 7;
 
-        float d = 3;
-        double e = 4;
+        float d = 3.0f;
+        double e = 4.0;
 
         boolean f = true;
         boolean g = false;
 
-        System.out.println(a+ " " +b);
+        System.out.println(a+ " " +b+ " " +c);
+        System.out.println(d+ " " +e);
+        System.out.println(f+ " "+g);
 
 
     }
